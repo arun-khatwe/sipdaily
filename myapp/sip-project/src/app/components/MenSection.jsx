@@ -17,8 +17,8 @@ const MenSection = () => {
                 <Image
                   src="/assets/images/men.png"
                   alt="Men"
-                  width={500}
-                  height={500}
+                  width={600}
+                  height={650}
                   className="w-full h-full object-contain"
                 />
               </div>

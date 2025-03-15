@@ -19,7 +19,7 @@ const Missions = () => {
                 <Image
                   src="/assets/images/mission.png"
                   alt="Mission"
-                  width={400}
+                  width={500}
                   height={400}
                   className="w-full h-full object-contain"
                 />

@@ -44,7 +44,7 @@ const MobileHeader = () => {
               </li>
               <li
                 className="cursor-pointer"
-                onClick={() => handleScrollToSection("about")}
+                onClick={() => handleScrollToSection("story")}
               >
                 Our Story
               </li>

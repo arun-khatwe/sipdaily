@@ -1,17 +1,25 @@
-import Image from "next/image";
-import Hero from "./components/Hero";
-import MenSection from "./components/MenSection";
-import MentoringSection from "./components/MentoringSection";
-import Missions from "./components/Missions";
-import Contact from "./components/Contact";
+"use client";
+import { useEffect } from "react";
 import Header from "./components/layout/header/Header";
+import Hero from "./components/Hero";
 import HeroTwo from "./components/HeroTwo";
 import About from "./components/About";
 import AboutTwo from "./components/AboutTwo";
 import Description from "./components/Description";
 import Plus from "./components/Plus";
+import MenSection from "./components/MenSection";
+import MentoringSection from "./components/MentoringSection";
+import Missions from "./components/Missions";
+import Contact from "./components/Contact";
 
 export default function HomePage() {
+  useEffect(() => {
+    const storySection = document.getElementById("story");
+    if (storySection) {
+      storySection.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <>
       <Header />
@@ -24,7 +32,7 @@ export default function HomePage() {
       <div id="about">
         <About />
       </div>
-      <div>
+      <div id="story">
         <AboutTwo />
       </div>
       <div>

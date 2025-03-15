@@ -32,7 +32,7 @@ const DesktopHeader = () => {
     const handleScroll = () => {
       const sectionIds = [
         "home",
-        "about",
+        // "about",
         "story",
         "men",
         "mentoring",
@@ -81,9 +81,9 @@ const DesktopHeader = () => {
             Home
           </li>
           <li
-            className={`cursor-pointer ${activeSection === "about" ? "text-red-500" : ""
+            className={`cursor-pointer ${activeSection === "story" ? "text-red-500" : ""
               }`}
-            onClick={() => handleScrollToSection("about")}
+            onClick={() => handleScrollToSection("story")}
           >
             {/* <Link href="/about-two"> */}
             Our Story
