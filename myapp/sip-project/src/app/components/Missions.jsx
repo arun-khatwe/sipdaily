@@ -42,7 +42,7 @@ const Missions = () => {
                 </p>
                 <p className="text-lg font-serif text-gray-900 flex items-start">
                   <span className="mr-2 text-black">•</span>
-                  Provide resources to help individuals, families and
+                  Offer resources to help individuals, families, and
                   communities come to know Jesus.
                 </p>
               </div>
@@ -55,10 +55,10 @@ const Missions = () => {
                 </h3>
               </div>
               <div className="p-3 space-y-4">
-                <p className="text-lg font-serif text-gray-900 flex items-start">
+                {/* <p className="text-lg font-serif text-gray-900 flex items-start">
                   <span className="mr-2 text-black">•</span>
-                  Offer financial support to meet hardships in life.
-                </p>
+                  
+                </p> */}
                 <p className="text-lg font-serif text-gray-900 flex items-start">
                   <span className="mr-2 text-black">•</span>
                   Provide continuing education to support faith and
