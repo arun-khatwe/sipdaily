@@ -13,12 +13,12 @@ const MenSection = () => {
           <div className=" lg:flex lg:justify-start">
             {/* Left Side - Arrow with Men */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative w-72 h-auto lg:w-[68%] xl:w-[72%] lg:bottom-36">
+              <div className="relative w-[110%] h-auto lg:w-[100%] xl:w-[105%] lg:bottom-36">
                 <Image
                   src="/assets/images/men.png"
                   alt="Men"
-                  width={600}
-                  height={650}
+                  width={1400}
+                  height={1500}
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -36,7 +36,7 @@ const MenSection = () => {
               <div className="p-3">
                 <p className="text-base font-serif text-gray-900 flex items-start">
                   <span className="mr-2 text-black">•</span>
-                  Provide tools to help men lead their families, serve their
+                  Give tools to help men lead their families, serve their
                   communities, and grow in their relationship with Jesus.
                 </p>
               </div>
@@ -66,8 +66,7 @@ const MenSection = () => {
               <div className="p-3">
                 <p className="text-base font-serif text-gray-900 flex items-start">
                   <span className="mr-2 text-black">•</span>
-                  Provide opportunities for men to learn and grow in their faith,
-                  and to make followers of The Word.
+                  Lay the groundwork for men to learn and grow in their faith.
                 </p>
               </div>
             </div>

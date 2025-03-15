@@ -13,14 +13,13 @@ function Description() {
           <Image
             src="/assets/images/description.png"
             alt="description image"
-            width={1000}
-            height={1000}
+            width={2000}
+            height={2000}
+            className="object-contain"
           />
         </div>
-        <div className="mt-auto pt-8 w-[101%] lg:w-full">
-          {/* <Footer /> */}
-        </div>
       </div>
+      <div className="flex-grow" style={{ backgroundImage: "url('/assets/images/bg.png')" }}></div>
     </section>
   );
 }

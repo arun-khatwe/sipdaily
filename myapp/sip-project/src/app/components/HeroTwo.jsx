@@ -22,14 +22,13 @@ const HeroTwo = () => {
           </div>
 
           {/* Right side - Text Box */}
-          <div className="w-full max-w-md lg:max-w-lg lg:w-1/2 mt-8 lg:mt-0 lg:ml-12">
-            <div className="flex justify-center items-center">
+          <div className="w-full max-w-md lg:max-w-lg lg:w-1/2 mt-8 lg:mt-0 lg:ml-0">
+            <div className="flex justify-start items-start">
               <Image
                 src="/assets/images/Frame.png"
                 alt="Bible and cup"
-                layout="intrinsic"
-                height={500}
-                width={550}
+                height={800}  // Increased height
+                width={800}   // Increased width
               />
             </div>
           </div>

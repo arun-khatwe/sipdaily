@@ -15,20 +15,20 @@ const MentoringSection = () => {
           <div className=" lg:flex lg:justify-start">
             {/* Left Side - Arrow with Men */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative w-72 h-auto lg:w-[64%] lg:bottom-36">
+              <div className="relative w-80 h-auto lg:w-[90%] lg:bottom-36">
                 <div className="">
                   <Image
                     src="/assets/images/mentoring.png"
                     alt="Mentor"
-                    width={400}
-                    height={400}
+                    width={600}
+                    height={600}
                     className="w-full h-full object-contain"
                   />
                   <Image
                     src="/assets/images/mentor.png"
                     alt="Mentor"
-                    width={400}
-                    height={400}
+                    width={500}
+                    height={500}
                     className="w-full h-full object-contain relative right-20"
                   />
                 </div>

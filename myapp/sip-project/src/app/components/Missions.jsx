@@ -15,12 +15,12 @@ const Missions = () => {
           <div className=" lg:flex lg:justify-start">
             {/* Left Side - Arrow with Men */}
             <div className="flex justify-center lg:justify-end">
-              <div className="relative w-72 h-auto lg:w-[68%] xl:w-[72%] lg:bottom-36">
+              <div className="relative w-96 h-auto lg:w-[80%] xl:w-[90%] lg:bottom-36">
                 <Image
                   src="/assets/images/mission.png"
                   alt="Mission"
-                  width={500}
-                  height={400}
+                  width={600}
+                  height={500}
                   className="w-full h-full object-contain"
                 />
               </div>
